@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    
+</head>
+<body>
+<!-- Header of the page-->
+<header class="side">
+    <div class="side-container container">
+        <nav class="side-navigation">
+            <a href="" class="side-logo link">Web<span class="side-logo-web">studio</span> </a>
+            <ul class="side-list list">
+                <li class="side-item">
+                    <a class="side-list-link link " href="./index.html">Студия</a>
+                </li>
+                <li class="side-item">
+                    <a class="side-list-link link current" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="side-item">
+                    <a class="side-list-link link" href="">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="contact list">
+            <li class="contact-item">
+                <a class="contact-link link" href="mailto:info@devstudio.com">
+                    <svg class="contact-link-logo" width='16px' height="16px">
+                        <use href="./img/icons.svg#icon-envelope "></use>
+                    </svg>
+                    info@devstudio.com</a>
+            </li>
+            <li class="contact-item">
+                <a class="contact-link link" href="tel:+380961111111">
+                    <svg class="contact-link-logo" width='16px' height="16px">
+                        <use href="./img/icons.svg#icon-smartphone "></use>
+                    </svg>
+                    +38 096 111 11 11</a>
+            </li>
+        </ul>
+    </div>
+</header>
+    <main>
+        <!-- Main section -->
+        <section class="section">
+            <!-- h2 will be hidden in the future -->
+            <div class="container">
+                <h1 class="visually-hidden">list of buttons</h1>
+                <ul class="filter list">
+                    <li class="filter-item"><button class="filter-button" type="button">Все</button></li>
+                    <li class="filter-item"><button class="filter-button" type="button">Веб-сайт</button></li>
+                    <li class="filter-item"><button class="filter-button" type="button">Приложение</button></li>
+                    <li class="filter-item"><button class="filter-button" type="button">Дизайн</button></li>
+                    <li class="filter-item"><button class="filter-button" type="button">Маркетинг</button></li>
+                </ul>
+                <ul class="projects-list list">
+                    <li class="projects-item">
+                        <a class="projects-image-container link" href="">
+                            <div class="projects-item-container">
+                            <img src="./img/technocrjak.jpg" alt="image of the website"
+                                    width="370">
+                                <p class="projects-item-top-text">Технокряк это современная площадка распространения коронавируса. Компании
+                                    используют эту платформу для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов. </p>
+                            </div>
+                            <div class="container-project">
+                                <h2 class="projects-item-name">Технокряк</h2>
+                                <p class="projects-item-text">Веб-сайт</p>
+                            </div>
+                        </a>
+                        
+                    </li>
+                    <li class="projects-item">
+                        <a class="projects-image-container link" href="">
+                            <div class="projects-item-container">
+                               <img src="./img/new-orlean-golden-star.jpg" alt="two guys plaing basketball" width="370">
+                               <p class="projects-item-top-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nam perspiciatis eaque laborum doloremque vero non nihil maxime fugit quae?</p>
+                            </div>
+                            <div class="container-project">
+                                <h2 class="projects-item-name">Постер New Orlean vs Golden Star</h2>
+                                <p class="projects-item-text">Дизайн</p>
+                            </div>
+
+                        </a>
+                        
+                    </li>
+                    <li class="projects-item">
+                        <a class="projects-image-container link" href="">
+                            <div class="projects-item-container">
+                            <img src="./img/seafood.jpg" alt="logo of the seafood restaurant" width="370">
+                            <p class="projects-item-top-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ad?</p>
+                            </div>
+                            
+                            <div class="container-project">
+                                <h2 class="projects-item-name">Ресторан Seafood</h2>
+                                <p class="projects-item-text">Приложение</p>
+                            </div>
+                        </a>
+                        
+                    </li>
+                    <li class="projects-item">
+                        <a class="projects-image-container link" href="">
+                            <div class="projects-item-container">
+                            <img src="./img/prime.jpg" alt="earphones" width="370">
+                            <p class="projects-item-top-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto accusantium, in, iure tenetur neque quis voluptate architecto corrupti officia quo atque, placeat cupiditate mollitia? Accusamus, similique sequi? Repudiandae, rerum quis.</p>
+                            </div>
+                            <div class="container-project">
+                                <h2 class="projects-item-name">Проект Prime</h2>
+                                <p class="projects-item-text">Маркетинг</p>
+                            </div>
+                        </a>
+                        
+                    </li>
+                    <li class="projects-item">
+                        <a class="projects-image-container link" href="">
+                            <div class="projects-item-container">
+                                 <img src="./img/boxes.jpg"   alt= "images of three boxes" width="370">
+                                 <p class="projects-item-top-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, consequuntur!</p>
+                            </div>
+                            <div class="container-project">
+                                <h2 class="projects-item-name">Проект Boxes</h2>
+                                <p class="projects-item-text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects-item">
+                        <a class="projects-image-container link" href="">
+                            <div class="projects-item-container">
+                                <img src="./img/insperetion.jpg" alt="foto on the screen with continents" width="370">
+                                <p class="projects-item-top-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, consequuntur!</p>
+                            </div>
+                            <div class="container-project">
+                                <h2 class="projects-item-name">Inspiration has no Borders</h2>
+                                <p class="projects-item-text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects-item">
+                        <a class="projects-image-container link" href="">
+                            <div class="projects-item-container">
+                                <img src="./img/limited-edition.jpg" alt="journal" width="370">
+                                <p class="projects-item-top-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, consequuntur</p>
+                            </div>
+                            <div class="container-project">
+                                <h2 class="projects-item-name">Издание Limited Edition</h2>
+                                <p class="projects-item-text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects-item">
+                        <a class="projects-image-container link" href="">
+                            <div class="projects-item-container">
+                                <img src="./img/project-lab.jpg" alt="label of brand" width="370">
+                                <p class="projects-item-top-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, conseq</p>
+                            </div>
+                            <div class="container-project">
+                                <h2 class="projects-item-name">Проект LAB</h2>
+                                <p class="projects-item-text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects-item">
+                        <a class="projects-image-container link" href="">
+                            <div class="projects-item-container">
+                                <img src="./img/growing-business.jpg" alt="typing on the notebook with opened site growing business" width="370">
+                                <p class="projects-item-top-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, consequuntur!</p>
+                            </div>
+                            <div class="container-project">
+                                <h2 class="projects-item-name">Growing Business</h2>
+                                <p class="projects-item-text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+              </div>          
+        </section>
+
+    </main>
+    <!-- Footer of the page portolio -->
+<footer class="footer">
+    <div class="container footer-container">
+        <div>
+            <a href="" class="side-logo link">Web<span class="footer-logo-web">studio</span> </a>
+            <address class="footer-address">
+                <ul class="footer-address-list list link">
+                    <!--google maps link-->
+                    <li class="address-item">
+                        <a class="address-item-street link" href="https://goo.gl/maps/h4qXjKyGgM7u1eXD7"
+                            target="_blank">г. Киев, пр-т
+                            Леси Украинки, 26</a>
+                    </li>
+                    <li class="address-item">
+                        <a class="adress-item-contact link" href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                    <li class="address-item">
+                        <a class="adress-item-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+
+        <div class="container-footer-link">
+            <p class="container-footer-text">Присоединяйтесь</p>
+            <ul class="footer-list-link list">
+                <li class="footer-list-item">
+                    <a class="footer-item-link" href="">
+                        <svg class="footer-list-icon">
+                            <use href="./img/icons.svg#icon-instagram" width="20px" height="20px"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-list-item">
+                    <a class="footer-item-link" href="">
+                        <svg class="footer-list-icon">
+                            <use href="./img/icons.svg#icon-twitter" width="20px" height="20px"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-list-item">
+                    <a class="footer-item-link" href="">
+                        <svg class="footer-list-icon">
+                            <use href="./img/icons.svg#icon-facebook" width="20px" height="20px"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-list-item">
+                    <a class="footer-item-link" href="">
+                        <svg class="footer-list-icon">
+                            <use href="./img/icons.svg#icon-linkedin" width="20px" height="20px"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-form">
+            <h2 class="footer-form-title"> Подпишитесь на рассылку</h2>
+            <form action='#' class="footer-form-field">
+                <label for="comment-email" class="modal-input-text"></label>
+                <input name="user-text" id="comment-email" class="modal-input-email" placeholder="E-mail">
+                <button type="submit" class="button-email">Подписаться
+                    <svg class="footer-icon-send" width="24px" height="24px">
+                        <use href="./img/icons.svg#icon-send"></use>
+                    </svg></button>
+            </form>
+        </div>
+    </div>
+
+
+
+</footer>
+    
+</body>
+</html>
