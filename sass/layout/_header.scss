@@ -9,13 +9,13 @@
   display: flex;
   align-items: center;
 }
-.navigation__logo {
+.logo {
   font-family: Raleway;
   @include font(26px, 1.19, 0.03em, 700);
 
   color: var(--accent-color);
 }
-.navigation__logo-web {
+.logo__dark {
   color: var(--main-title-color);
 }
 .navigation__list {
@@ -41,7 +41,7 @@
     color: var(--accent-color);
   }
 }
-.current {
+.navigation__link__current {
   color: var(--accent-color);
   &::after {
     content: '';
@@ -74,8 +74,8 @@
   &:focus {
     color: var(--accent-color);
   }
-  &:hover .contact__link-logo,
-  &:focus .contact__link-logo {
+  &:hover .contact__icon,
+  &:focus .contact__icon {
     fill: var(--accent-color);
   }
 }
@@ -83,7 +83,7 @@
   @include aline-list();
   align-content: center;
 }
-.contact__link-logo {
+.contact__icon {
   margin-right: 10px;
   fill: #757575;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

@@ -1,14 +1,14 @@
-@import './utiles/variables';
+@import './utils/variables';
 
 @import './base/reset';
 @import './base/common';
-@import './utiles/aline-list';
-@import './utiles/mixin-font';
+@import './utils/aline-list';
+@import './utils/mixin-font';
 
 @import './components/container';
 @import './components/section';
 
-@import './utiles/hidden';
+@import './utils/hidden';
 
 @import './layout/header';
 @import './layout/hero';
